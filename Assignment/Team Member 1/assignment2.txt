@@ -1,0 +1,8 @@
+import random
+temp=random.randint(0,100)
+hum=random.randint(0,100)
+if(temp>60):
+    print("/////alert the alarm /////")
+else:
+    print(temp, "degree")
+print (hum,"gram/kilo gram")
